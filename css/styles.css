@@ -19,7 +19,6 @@ a {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
 }
 
@@ -68,7 +67,7 @@ background: #2e2f42;
     font-size: 56px;
 
     /* line-height: 60px; */
-    line-height: 1.07143;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -86,7 +85,7 @@ background: #2e2f42;
         background-color: #4d5ae5;
 }
 .starter-button:hover,
-.starter-button:focus{
+.starter-button:pointer{
 background: #404bbf;
 }
 
@@ -117,6 +116,7 @@ background: #404bbf;
 
 .team-section{
     background-color: #f4f4fd;
+    text-transform: capitalize;
 }
 .team-title{
     font-family: "Roboto", sans-serif;
@@ -124,7 +124,7 @@ background: #404bbf;
         font-size: 36px;
     
         /* line-height: 40px; */
-        line-height: 1.11111;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -161,6 +161,9 @@ background: #404bbf;
 }
 
 /* portfolio-section */
+.portfolio-section{
+    text-transform: capitalize;
+}
 
 .portfolio-title{
     font-family: "Roboto", sans-serif;
@@ -168,7 +171,7 @@ background: #404bbf;
         font-size: 36px;
     
         /* line-height: 40px; */
-        line-height: 1.11111;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
