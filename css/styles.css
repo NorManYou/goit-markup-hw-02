@@ -20,6 +20,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    text-transform: uppercase;
 }
 
 .header-logo .logo-part {
@@ -67,7 +68,7 @@ background: #2e2f42;
     font-size: 56px;
 
     /* line-height: 60px; */
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -85,8 +86,9 @@ background: #2e2f42;
         background-color: #4d5ae5;
 }
 .starter-button:hover,
-.starter-button:pointer{
+.starter-button:focus{
 background: #404bbf;
+cursor: pointer;
 }
 
 /* advantages-section */
@@ -117,6 +119,7 @@ background: #404bbf;
 .team-section{
     background-color: #f4f4fd;
     text-transform: capitalize;
+    line-height: 1.11;
 }
 .team-title{
     font-family: "Roboto", sans-serif;
@@ -163,6 +166,7 @@ background: #404bbf;
 /* portfolio-section */
 .portfolio-section{
     text-transform: capitalize;
+    line-height: 1.11;
 }
 
 .portfolio-title{
@@ -211,4 +215,6 @@ font-family: "Roboto", sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        text-transform: capitalize;
+        
 }
